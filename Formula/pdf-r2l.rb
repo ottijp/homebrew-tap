@@ -7,7 +7,7 @@ class PdfR2l < Formula
   bottle do
     root_url "https://github.com/ottijp/pdf-r2l/releases/download/v1.0.1"
     cellar :any_skip_relocation
-    sha256 "763118b39d3822b3ee3df8e9709332849d29499a120b9be1ad81f8594e6d08d7" => :catalina
+    sha256 "94e7eb9a5b410b708c2705bf6778abf52ae57c5849669a17da009792883556f6" => :catalina
   end
 
   depends_on "gradle" => :build
