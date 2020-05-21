@@ -17,6 +17,7 @@ class PdfR2l < Formula
 
     bin.install "build/install/pdf-r2l/bin/pdf-r2l"
     libexec.install Dir["build/install/pdf-r2l/lib/*"]
+    system "sed", "-i", "", "s/\\$APP_HOME\\/lib\\//\\$APP_HOME\\/libexec\\//g", "#{bin}/pdf-r2l"
   end
 
   test do
