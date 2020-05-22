@@ -1,13 +1,13 @@
 class PdfR2l < Formula
   desc "Change PDF reading direction to Right-to-Left (R2L)"
   homepage "https://github.com/ottijp/pdf-r2l"
-  url "https://github.com/ottijp/pdf-r2l/archive/v1.0.1.tar.gz"
-  sha256 "ea13710f2a17c27d46e5cd69bed01700e61646ae1325504df90f1f827c65e1a6"
+  url "https://github.com/ottijp/pdf-r2l/archive/v1.0.2.tar.gz"
+  sha256 "421c44dae937bb010e5268ffc061fee3841ec1c668a208c06dd73dcfa9b62ab7"
 
   bottle do
-    root_url "https://github.com/ottijp/pdf-r2l/releases/download/v1.0.1"
+    root_url "https://github.com/ottijp/pdf-r2l/releases/download/v1.0.2"
     cellar :any_skip_relocation
-    sha256 "94e7eb9a5b410b708c2705bf6778abf52ae57c5849669a17da009792883556f6" => :catalina
+    sha256 "2218917185397ab470ee42c39cabed405de639500bb5d5c42fd0e238f950b83e" => :catalina
   end
 
   depends_on "gradle" => :build
